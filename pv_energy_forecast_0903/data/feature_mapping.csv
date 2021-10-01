@@ -1,0 +1,3 @@
+index,pv_time,pv_col,wea_time,wea_col1,wea_col2,wea_col3,wea_col4,wea_col5,wea_col6
+common,issue_time,target_value,issue_time,forecast,Temperature,Humidity,WindSpeed,WindDirection,Cloud
+ulsan,time,ulsan,Forecast time,forecast,Temperature,Humidity,WindSpeed,WindDirection,Cloud

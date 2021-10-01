@@ -1,0 +1,18 @@
+site_id,tr_start,val_start,ts_start,target_hour,input_win_len,output_win_len,epochs,batch_size,model,model_param
+ulsan,2019-01-01,2020-10-01,2021-01-01,10,24,1,300,64,DNN,"{""use_batch_normalization"" : ""True"",
+""use_dropout"" :  ""True"",
+""learning_rate"" : 0.01,
+""activation"" : ""relu"",
+""loss"" : ""mae"",
+""kernel_init_method"" : ""he_normal"",
+""dropout_rate"" : 0.1,
+""hidden"" : ""[300, 100, 50, 30, 3]""}"
+ulsan,2019-01-01,2020-10-01,2021-01-01,10,8,24,300,64,CNN,"{""use_batch_normalization"" : ""True"",
+""use_dropout"" :  ""True"",
+""learning_rate"" : 0.005,
+""activation"" : ""relu"",
+""loss"" : ""mse"",
+""dropout_rate"" : 0.2,
+""padding"" : ""causal"",
+""input_layer"" : 10
+}"
